@@ -34,11 +34,7 @@ Then visit http://localhost:8000 in your browser of choice after you npm start t
 
 -There is a basic API implemented now as well as well as a Ethereum Blockchain Information page
 
--Realtime ETH/USD Price Ticker
-
--Realtime Ethereum Hashrate
-
--Address Pages are integrated with Shapeshift to easily send a payment to an address.
+-Realtime Pirl Hashrate
 
 -Responsive design
 
