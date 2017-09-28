@@ -8,16 +8,6 @@ The code in this branch is licensed under GPLv3 (see LICENSE file)
 
 Feel free to modify or reuse the code here.
 
-##Reddit
-
-Discuss this project at: [Reddit Page on /r/ethreum](https://www.reddit.com/r/ethereum/comments/511j5a/new_ethereum_block_explorer_heavily_updated/)
-
-##Donations
-
-ETH Address: 0xee298ae561bD7BE6e1040AFf281202E0b0646BA6
-
-BTC Address: 1AGxSzTPkthdNKfY5usVLwKDLk9i6sPTQj
-
 ##Installation
 
 `git clone https://github.com/carsenk/explorer`
