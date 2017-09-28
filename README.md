@@ -1,4 +1,4 @@
-# ETHExplorer V2 based off github.com/etherparty/explorer
+# Pirl V2 based off github.com/etherparty/explorer
 
 ![ETHExplorer V2 Screenshot](http://i.imgur.com/wgROAS9.png)
 
@@ -30,7 +30,7 @@ BTC Address: 1AGxSzTPkthdNKfY5usVLwKDLk9i6sPTQj
 
 Make sure to install geth as well for the ETH explorer to be able to function. Then run:
 
-`geth --rpc --rpcaddr localhost --rpcport 8545 --rpcapi "web3,eth" --rpccorsdomain "http://localhost:8000"`
+`pirl --rpc --rpcaddr localhost --rpcport 6588 --rpcapi "web3,eth" --rpccorsdomain "http://localhost:8000"`
 
 Then visit http://localhost:8000 in your browser of choice after you npm start the explorer
 
