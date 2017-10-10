@@ -4,19 +4,19 @@ angular.module('ethExplorer')
     .controller('mainCtrl', function ($rootScope, $scope, $location) {
 
         // Display & update block list
-        getETHRates();
+        //getETHRates();
         updateBlockList();
         updateTXList();
         updateStats();
-        getHashrate();
+        //getHashrate();
 
         web3.eth.filter("latest", function(error, result){
           if (!error) {
-            getETHRates();
+            //getETHRates();
             updateBlockList();
             updateTXList();
             updateStats();
-            getHashrate();
+            //getHashrate();
             $scope.$apply();
           }
         });
@@ -175,6 +175,7 @@ angular.module('ethExplorer')
             $scope.hashrate = hr;
        	});
       }
+
 
         function getETHRates() {
           $.getJSON("https://coinmarketcap-nexuist.rhcloud.com/api/eth/price", function(json) {
